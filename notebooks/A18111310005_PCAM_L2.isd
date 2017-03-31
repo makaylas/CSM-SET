@@ -1,0 +1,54 @@
+{
+    "boresight": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "ccd_center": [
+        511.5,
+        511.5
+    ],
+    "ephemeris_time": 595381695.8116988,
+    "focal_length": 630.0,
+    "focal_length_epsilon": 5.0,
+    "ifov": 13.475999999999999,
+    "instrument_id": "PolyCam",
+    "itrans_line": [
+        0.0,
+        0.0,
+        -117.64705882353
+    ],
+    "itrans_sample": [
+        0.0,
+        117.64705882353,
+        0.0
+    ],
+    "kappa": -2.8464286672469763,
+    "nlines": 1024,
+    "nsamples": 1024,
+    "omega": -1.5943142528879,
+    "original_half_lines": 512.0,
+    "original_half_samples": 512.0,
+    "phi": 1.138936933411424,
+    "semi_a_axis": 0.2825,
+    "semi_b_axis": 0.2675,
+    "semi_c_axis": 0.254,
+    "spacecraft_name": "OSIRIS-REX",
+    "target_name": "Bennu",
+    "transx": [
+        0.0,
+        0.0085,
+        0.0
+    ],
+    "transy": [
+        0.0,
+        0.0,
+        -0.0085
+    ],
+    "x_sensor_origin": -23746.382688576374,
+    "x_sun_position": -72584382155.74005,
+    "y_sensor_origin": -84555.78039612206,
+    "y_sun_position": -131469457446.03712,
+    "z_sensor_origin": 868.1464518756829,
+    "z_sun_position": -4308117323.711538
+}
