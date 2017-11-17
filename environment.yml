@@ -1,0 +1,16 @@
+name: usgscamera
+channels:
+  - conda-forge
+  - usgs-astrogeology
+  - andrewannex
+dependencies:
+  - libcsm
+  - cycsm
+  - usgscam
+  - gdal
+  - pvl
+  - pyproj
+  - spiceypy
+  - jupyter
+  - matplotlib
+  - pandas
