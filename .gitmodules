@@ -4,3 +4,6 @@
 [submodule "sensorutils"]
 	path = sensorutils
 	url = git@github.com:USGS-Astrogeology/SensorUtils.git
+[submodule "csmcameramodel"]
+	path = csmcameramodel
+	url = git@github.com:USGS-Astrogeology/CSM-CameraModel.git
