@@ -13,8 +13,7 @@ add_subdirectory(sensorutils)
 add_subdirectory(csmcameramodel)
 
 
-add_library(csmset SHARED
-            src/Set.cpp)
+add_executable(csmset src/Set.cpp)
 
 if(COVERAGE)
     target_compile_options(csmset PRIVATE --coverage -O0)
@@ -44,8 +43,8 @@ target_link_libraries(csmset PUBLIC
                       gtest ${CMAKE_THREAD_LIBS_INIT})
 
 install(TARGETS csmset
-    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
-    PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
+	RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+        PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 
 
 
